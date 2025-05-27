@@ -1,6 +1,6 @@
-/* Sotech | IT Solutions & Technology HTML Template
+/* JS GEOSCIENCES| GLOBAL MINING CONSULTANCY HTML Template
 
-Template Name: Sotech
+Template Name:JS GEOSCIENCES
 Version: 1.0.0
 License: copyright commercial
 
@@ -52,8 +52,8 @@ License: copyright commercial
   --theme-color1-rgb: 34, 36, 41;
   --theme-color2-rgb: 51, 106, 234;
   --theme-color3-rgb: 244, 245, 248;
-  --theme-color1: #222429;
-  --theme-color2: #336AEA;
+  --theme-color1: #000000;
+  --theme-color2: #269fce;
   --theme-color3: #f4f5f8;
   --theme-color-light: #ffffff;
   --theme-color-dark: #000000;
@@ -72,8 +72,8 @@ License: copyright commercial
   --headings-color: var(--theme-color1);
   --link-color: var(--theme-color1);
   --link-hover-color: var(--theme-color1);
-  --text-font: "DM Sans", sans-serif;
-  --title-font: "Outfit", sans-serif;
+  --text-font: "Montserrat", sans-serif;
+  --title-font: "Montserrat", sans-serif;
   --body-font-size: 16px;
   --body-line-height: 30px;
   --body-font-weight: 400;
@@ -1883,7 +1883,7 @@ Scroll To Top style
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 30px;
   font-weight: 500;
   opacity: 1;
@@ -1895,7 +1895,7 @@ Scroll To Top style
 }
 .main-menu .navigation > li > a .icon {
   position: relative;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 24px;
   margin-left: 10px;
 }
@@ -1904,11 +1904,11 @@ Scroll To Top style
 }
 .main-menu .navigation > li.current > a {
   color: var(--theme-color2);
-  font-weight: 700;
+  font-weight: 400;
 }
 .main-menu .navigation > li.dropdown > a {
   margin-right: -14px;
-  padding-right: 14px;
+  padding-right: 8px;
 }
 .main-menu .navigation > li.dropdown > a:after {
   content: "\f107";
@@ -1959,7 +1959,7 @@ Scroll To Top style
 .main-menu .navigation > li > ul > li {
   position: relative;
   width: 100%;
-  border-bottom: 1px solid #ebf1f5;
+  border-bottom: 1px solid #0980cf;
 }
 .main-menu .navigation > li > ul > li:last-child {
   border-bottom: none;
@@ -2598,7 +2598,7 @@ Scroll To Top style
   left: 0;
   top: 0;
   width: 100%;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  /* border-bottom: 1px solid white; */
 }
 @media only screen and (max-width: 1709.98px) {
   .header-style-six {
@@ -4482,9 +4482,11 @@ Section Title
 
 ***/
 .features-section-two {
+   background-color: #000000;
   position: relative;
   padding: 120px 0;
   z-index: 2;
+  
 }
 @media (max-width: 991.98px) {
   .features-section-two {
@@ -4500,8 +4502,8 @@ Section Title
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #F5F6F8;
-  background-image: url(../images/icons/bg-shape-tm-1.png);
+  background-color: #000000;
+  /* background-image: url(../images/icons/bg-shape-tm-1.png); */
   content: "";
 }
 .features-section-two .bottom-text {
@@ -4531,7 +4533,7 @@ Section Title
   z-index: 1;
 }
 .feature-block-two .inner-box {
-  border-top: 5px solid var(--theme-color2);
+  border-top: 5px solid #269fce;
   position: relative;
   overflow: hidden;
   height: 100%;
@@ -4587,7 +4589,7 @@ Section Title
   position: relative;
   display: block;
   font-size: 64px;
-  color: var(--theme-color2);
+  color: #269fce;
   font-weight: 900;
   line-height: 64px;
   margin-bottom: 30px;
@@ -4678,7 +4680,7 @@ Section Title
   transition: all 400ms linear;
 }
 .feature-block-three .inner-box:hover .image .icon {
-  background-color: var(--bg-theme-color1);
+  background-color: #269fce;
   color: var(--theme-color2);
 }
 .feature-block-three .inner-box:hover .title {
@@ -5457,6 +5459,7 @@ Section Title
 
 ***/
 .about-section {
+  background-color: black;
   position: relative;
   padding: 120px 0 70px;
 }
@@ -10870,7 +10873,7 @@ Section Title
   height: 110px;
   width: 110px;
   margin: 0 auto;
-  background-color: #111;
+  /* background-color: #111; */
   color: var(--theme-color2);
   font-size: 62px;
   font-weight: 600;
@@ -19305,6 +19308,7 @@ Sidebar
 .main-footer .widgets-section {
   position: relative;
   padding: 110px 0 65px;
+  background-color:#000;
 }
 @media (max-width: 991.98px) {
   .main-footer .widgets-section {
@@ -19520,7 +19524,7 @@ Sidebar
 .footer-bottom .inner-container {
   position: relative;
   text-align: center;
-  background-color: #07151D;
+  background-color:#000;
   padding: 35px 15px;
 }
 .footer-bottom .copyright-text {
